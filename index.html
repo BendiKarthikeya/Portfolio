@@ -79,7 +79,7 @@
             background-image: url("./KaRTHIKEYA (5).jpg");
         }
         #education {
-            padding: 2em;
+            padding: 2em 2em 0 2em ;
             background-color:black;
             color: gray;
         }
@@ -142,9 +142,9 @@
         }
         /* Skills Section Styles */
         .skills-section {
-            padding: 20px;
+            padding:20px;
             text-align: center;
-            
+            margin-bottom: 80px;
         }
 
         .skills-container {
@@ -183,21 +183,17 @@
         /* CSS to style GIF */
         .gif-section {
             text-align: center;
-            padding: 20px;
-            margin-top: 60px;
+            margin-top: 80px;
         }
-
         .animated-gif {
-            width: 500px; 
+            width: 650px; 
             border-radius: 8px;
-            height: 300px;
-            
+            height: 400px;
         }
-        .main_1{
-            display: flex;
-            justify-content: space-beteen;
-            align-items: center;
+        #home{
+            margin-top: -60px;
         }
+        
 
         /* Basic styles */
         .projects-section {
@@ -206,8 +202,6 @@
             padding-left: 80px;
             display: flex; 
             align-items: center; 
-            border-top: 1px solid rgb(35, 255, 54);
-
             
         }
 
@@ -218,25 +212,21 @@
             display: flex; 
             align-items: center; 
             box-shadow: 0 2px 5px rgb(35, 255, 54);
-            
+            margin-top: 30px;
         }
 
         .card-content {
             display: flex; 
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-between
+           
         }
 
         .card img {
-            height: 100px; 
-            width: 150px;
-            margin-left: 50px;
-            margin-right: 50px;
-            border-radius: 100px;
+            height: 150px; 
+            width: 220px;
+            
         }
-
-        
-
         .card h3 {
             text-align: center;
             width: 100%; 
@@ -283,7 +273,7 @@
                 <span><a href="#" class="navlinks active">HOME</a></span>
                 <span><a href="#education" class="navlinks">EDUCATION</a></span>
                 <span><a href="#skills" class="navlinks">SKILLS</a></span>
-                <span><a href="#" class="navlinks">PROJECTS</a></span>
+                <span><a href="#projects" class="navlinks">PROJECTS</a></span>
                 <span><a href="#" class="navlinks">CONTACT</a></span>
                 <span><a href="#" class="bi bi-list"></a></span>
             </nav>
@@ -295,7 +285,6 @@
             <section class="gif-section">
                 <img src="./KARTHIKEYA.gif" alt="Animated GIF Example" class="animated-gif">
             </section>
-
             <section class="container-fluid  section_1" id="home">
                 <p class="fs-5 container-fluid">I am currently pursuing a B.Sc. Honours in Artificial Intelligence and Data Science at the Indian Institute of Technology Guwahati. With a strong foundation in programming, web development, and data science, I am dedicated to leveraging these skills in impactful projects and research. Outside of academics, I enjoy playing badminton and staying updated with emerging technologies, always eager to broaden my expertise.</p>
             </section>
@@ -326,13 +315,13 @@
                   <p>J Y High School <br>Year: 2021 <br> Grade: 98.67%</p>
                 </div>
               </div>
-            </div>
+            </div> 
           </section>
           
         <!-- Skills Section -->
-            <section class="skills-section" id="skills">
-                <h2 style="color: gray;" class="mb-5">Skills</h2>
-                
+            <section id="skills"></section>
+            <section class="skills-section">
+                <h2 style="color: gray; margin-top: 60px;" class="mb-5" >Skills</h2>
                 <div class="skills-container">
                     <div class="skill">
                         <h4>HTML</h4>
@@ -395,15 +384,16 @@
                     </div>
                 </div>
             </section>
-            <!-- Project Cards Carousel -->
+            <!-- Project Cards Carousel --> 
+            <section id="projects"></section>
             <section class="projects-section">
-                <h2 class="me-5" style="color: gray;">My Projects</h2>
+                <h2 class="me-5" style="color: gray;" >My Projects</h2>
                 <div class="carousel-container">
                     <div class="carousel">
                         <div class="card">
                             <h3 class="typing-heading">Portfolio</h3>
-                            <div class="card-content">
-                                <a href="https://karthikeyabendi.vercel.app/"><img src="./Portfolio.gif" class="" alt="Project 1 Image"></a>
+                            <div class="card-content p-2">
+                                <a href="https://karthikeyabendi.vercel.app/"><img src="./Portfolio_2.jpg" class="" alt="Project 1 Image"></a>
                                 <div>
                                     <p><strong>Purpose:</strong> A personal portfolio website to showcase my skills, projects, and experience.</p>
                                     <p><strong>Technologies Used:</strong> HTML, CSS</p>
@@ -413,8 +403,8 @@
                         </div>
                         <div class="card">
                             <h3 class="typing-heading">YouTube Clone</h3>
-                            <div class="card-content">
-                                <a href="https://github.com/BendiKarthikeya/Webdevelopment_ioi/blob/main/Nithin%20sir's/FashionStore/src/youtube.html"><img src="./youtube-icon_2.png" class="" alt="Project 1 Image"></a>
+                            <div class="card-content p-2">
+                                <a href="https://github.com/BendiKarthikeya/Webdevelopment_ioi/blob/main/Nithin%20sir's/FashionStore/src/youtube.html"><img src="./Youtube_man.jpg" class="" alt="Project 1 Image"></a>
                                 <div>
                                     <p><strong>Purpose:</strong> Designed a YouTube-style interface to practice layout design and video embedding using HTML and CSS.</p>
                                     <p><strong>Technologies Used:</strong> HTML, CSS</p>
@@ -424,11 +414,11 @@
                         </div>
                         <div class="card">
                             <h3 class="typing-heading">Portfolio</h3>
-                            <div class="card-content">
-                                <a href="https://karthikeyabendi.vercel.app/"><img src="./Portfolio.gif" class="" alt="Project 1 Image"></a>
+                            <div class="card-content p-2">
+                                <a href="https://karthikeyabendi.vercel.app/"><img src="./Portfolio_2.jpg" class="" alt="Project 1 Image"></a>
                                 <div>
                                     <p><strong>Purpose:</strong> A personal portfolio website to showcase my skills, projects, and experience.</p>
-                                    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                                    <p><strong>Technologies Used:</strong> HTML, CSS</p>
                                     <a href="https://karthikeyabendi.vercel.app/" target="_blank" class="project-link btn btn-success">View Project</a>
                                 </div>
                             </div>
@@ -436,11 +426,9 @@
                     </div>
                 </div>
             </section>
-
-
     </main>
     <footer>
-        
+                
     </footer>
 </body>
 </html>
