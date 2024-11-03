@@ -66,7 +66,9 @@
             color: rgb(35, 255, 54);
             display: none;
         }
-
+        .article_matter{
+            font-size: 20px;
+        }
         .hover-image {
             width: 300px;
             height: 70px;
@@ -388,8 +390,8 @@
     @media screen and (orientation:portrait) {
     body {
         background-color: black;
-        margin: 0;
     }
+
 
     header {
         display: flex;
@@ -403,10 +405,11 @@
         position: fixed;
         top: 0;
     }
+    
 
     nav {
         margin-top: -20px;
-        margin-left: 2px;
+        
     }
 
     .hover-image {
@@ -427,7 +430,7 @@
         font-size: .9rem;
         position: relative;
         text-transform: uppercase;
-        margin-left: 9px;
+        margin-left: 7px;
     }
 
     .active {
@@ -437,6 +440,9 @@
     .navlinks:hover {
         color: rgb(35, 255, 54);
         transition: .5s ease-in-out;
+    }
+    .article_matter{
+        font-size: 20px;
     }
 
     #education {
@@ -455,7 +461,7 @@
         list-style: none;
         padding-left: 0;
         line-height: 22px;
-        width: 90%;
+        width:100%;
         max-width: 300px;
         
     }
@@ -488,7 +494,7 @@
         border-radius: 8px;
         color: black;
         margin: 10px 0;
-        width: 90%;
+        width: 100%;
         max-width: 300px;
         box-shadow: 3px 3px 8px rgb(35, 255, 54);
         text-align: center;
@@ -542,26 +548,24 @@
 
     .card {
         background-color: #c0ffba;
-        margin: 20px auto;
+        margin-top: 20px ;
         width: 100%;
-        max-width: 400px;
+        max-width: 300px;
         padding: 15px;
         display: flex;
-        flex-direction: column;
         align-items: center;
         box-shadow: 0 2px 5px rgb(35, 255, 54);
+        font-size: small;
     }
 
     .card img {
-        position: relative;
-            height: 150px; 
-            width: 220px;
-            margin-left: 70px;
+            height: 80px; 
+            width: 120px;
         }
 
     .card h3 {
         font-size: 1.2em;
-        margin: 10px 0;
+        margin-top: 10px ;
         text-align: center;
     }
 
@@ -578,17 +582,20 @@
     .project-link:hover {
         background-color: #45a049;
     }
-
+    
     #certifications h2 {
         text-align: center;
+        margin-top: 20px;
     }
 
     .certifications-box {
         border: 1px solid #555;
         border-radius: 8px;
         padding: 1.5em;
-        margin: 0 auto;
-        max-width: 400px;
+        max-width: 350px;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
     }
 
     .certificate-list .certificate {
@@ -673,7 +680,7 @@
                 <img src="./KARTHIKEYA.gif" alt="Animated GIF Example" class="animated-gif container-fluid">
             </section>
             <section class="container-fluid  section_1" id="home">
-                <p class="fs-5 container-fluid" style="color: lightslategray;">I am currently pursuing a B.Sc. Honours in Artificial Intelligence and Data Science at the Indian Institute of Technology Guwahati. With a strong foundation in programming, web development, and data science, I am dedicated to leveraging these skills in impactful projects and research. Outside of academics, I enjoy playing badminton and staying updated with emerging technologies, always eager to broaden my expertise.</p>
+                <p class="article_matter" style="color: lightslategray;">I am currently pursuing a B.Sc. Honours in Artificial Intelligence and Data Science at the Indian Institute of Technology Guwahati. With a strong foundation in programming, web development, and data science, I am dedicated to leveraging these skills in impactful projects and research. Outside of academics, I enjoy playing badminton and staying updated with emerging technologies, always eager to broaden my expertise.</p>
             </section>
         </section>
         <section id="education" class="container-fluid">
