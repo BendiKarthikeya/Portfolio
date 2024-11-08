@@ -207,7 +207,7 @@
             color: #666;
             margin: 5px 0 0;
         }
-        /* CSS to style GIF */
+    
         .gif-section {
             text-align: center;
             margin-top: 80px;
@@ -222,7 +222,6 @@
         }
         
 
-        /* Basic styles */
         .projects-section {
             margin: 30px;
             padding-top: 80px;
@@ -286,7 +285,7 @@
         border-bottom: 1px solid black;
         box-shadow: 1px 1px 3px black;
         }
-        /* Styles for Certifications Section */
+
         #certifications {
             padding: 2em;
             color: #808080;
@@ -297,7 +296,6 @@
             margin-bottom: 1em;
         }
 
-        /* Box for Certifications */
         .certifications-box {
             border: 1px solid #555;
             border-radius: 8px; 
@@ -332,7 +330,6 @@
         summary::-webkit-details-marker {
             display: none; 
         }
-        /* Footer Styles */
         footer {
             background-color: #111;
             color: gray;
@@ -388,271 +385,269 @@
         
     }
     @media screen and (orientation:portrait) {
-    body {
-        background-color: black;
-    }
-
-
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: rgba(0, 0, 0, 0.721);
-        width: 100%;
-        box-shadow: 1px 3px 10px rgb(35, 255, 54);
-        z-index: 2;
-        position: fixed;
-        top: 0;
-    }
-    
-
-    nav {
-        margin-top: -20px;
-        
-    }
-
-    .hover-image {
-        width: 250px;
-        height: 70px;
-        background-image: url("./KaRTHIKEYA (4).jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        transition: background-image .5s ease-in-out;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .navlinks {
-        color: gray;
-        font-size: .9rem;
-        position: relative;
-        text-transform: uppercase;
-        margin-left: 7px;
-    }
-
-    .active {
-        color: rgb(35, 255, 54);
-    }
-
-    .navlinks:hover {
-        color: rgb(35, 255, 54);
-        transition: .5s ease-in-out;
-    }
-    .article_matter{
-        font-size: 20px;
-    }
-
-    #education {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        color: gray;
-    }
-
-    #education h2 {
-        text-align: center;
-        margin-bottom: 1em;
-    }
-    .achievements ul {
-        list-style: none;
-        padding-left: 0;
-        line-height: 22px;
-        width:100%;
-        max-width: 300px;
-        
-    }
-    .achievements li {
-        margin-bottom: 10px;
-    }
-    .achievements ul li::before {
-        content: "➔";
-        color: green;
-        margin-right: 8px;
-    }
-
-    .timeline {
-        position: relative;
-        padding: 0;
-        width: 100%;
-        margin-left: 5em;
-    }
-
-    .timeline-item {
-        position: relative;
-        width: 100%;
-        padding: 1em 0;
-        
-    }
-
-    .timeline-content {
-        background-color: #c0ffba;
-        padding: 15px;
-        border-radius: 8px;
-        color: black;
-        margin: 10px 0;
-        width: 100%;
-        max-width: 300px;
-        box-shadow: 3px 3px 8px rgb(35, 255, 54);
-        text-align: center;
-    }
-    
-
-    .skills-section {
-        padding: 20px;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .skills-container {
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        gap: 15px;
-    }
-
-    .skill {
-        width: 100%;
-        max-width: 300px;
-        padding: 10px;
-        background-color: #c0ffba;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-align: center;
-    }
-
-    /* GIF Section */
-    .gif-section {
-        text-align: center;
-        margin-top: 120px;
-    }
-
-    .animated-gif {
-        width: 100%;
-        max-width: 350px;
-        height: auto;
-        border-radius: 8px;
-    }
-
-    /* Projects Section */
-    .projects-section {
-        width: 100%;
-        padding-top: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-    }
-
-    .card {
-        background-color: #c0ffba;
-        margin-top: 20px ;
-        width: 100%;
-        max-width: 300px;
-        padding: 15px;
-        display: flex;
-        align-items: center;
-        box-shadow: 0 2px 5px rgb(35, 255, 54);
-        font-size: small;
-    }
-
-    .card img {
-            height: 80px; 
-            width: 120px;
+        body {
+            background-color: black;
         }
 
-    .card h3 {
-        font-size: 1.2em;
-        margin-top: 10px ;
-        text-align: center;
-    }
 
-    .project-link {
-        margin-top: 10px;
-        background-color: #4CAF50;
-        color: #fff;
-        padding: 5px 15px;
-        border-radius: 5px;
-        text-align: center;
-        display: block;
-    }
-
-    .project-link:hover {
-        background-color: #45a049;
-    }
-    
-    #certifications h2 {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .certifications-box {
-        border: 1px solid #555;
-        border-radius: 8px;
-        padding: 1.5em;
-        max-width: 350px;
-        display: flex;
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-
-    .certificate-list .certificate {
-        margin: 0.5em 0;
-    }
-
-    .certificate-list .certificate a {
-        color: rgba(59, 173, 69, 0.765);
-        text-decoration: none;
-    }
-
-    .certificate-list .certificate a:hover {
-        color: rgb(35, 255, 54);
-    }
-
-    /* Footer */
-    footer {
-        background-color: #111;
-        color: gray;
-        padding: 20px;
-        text-align: center;
-        margin-top: 2em;
-    }
-
-    footer p {
-        font-size: 0.8rem;
-    }
-
-    footer a {
-        color: rgba(59, 173, 69, 0.765);
-        text-decoration: none;
-    }
-
-    footer a:hover {
-        color: rgb(35, 255, 54);
-    }
-
-    .footer-content {
-        margin-bottom: 1em;
-    }
-    footer p span img{
-            height: 25px;
-            width: 25px;
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.721);
+            width: 100%;
+            box-shadow: 1px 3px 10px rgb(35, 255, 54);
+            z-index: 2;
+            position: fixed;
+            top: 0;
         }
-        .footer-copyright {
-            font-size: 0.9em;
-            color: #888;
-            border-top: 1px solid #333;
-            padding-top: 1em;
-            margin-top: 1em;
+        
+
+        nav {
+            margin-top: -20px;
+            
+        }
+
+        .hover-image {
+            width: 250px;
+            height: 70px;
+            background-image: url("./KaRTHIKEYA (4).jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            transition: background-image .5s ease-in-out;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navlinks {
+            color: gray;
+            font-size: .8rem;
+            position: relative;
+            text-transform: uppercase;
+            margin-left: 7px;
+        }
+
+        .active {
+            color: rgb(35, 255, 54);
+        }
+
+        .navlinks:hover {
+            color: rgb(35, 255, 54);
+            transition: .5s ease-in-out;
+        }
+        .article_matter{
+            font-size: 20px;
+        }
+
+        #education {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            color: gray;
+        }
+
+        #education h2 {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .achievements ul {
+            list-style: none;
+            padding-left: 0;
+            line-height: 22px;
+            width:100%;
+            max-width: 300px;
+            
+        }
+        .achievements li {
+            margin-bottom: 10px;
+        }
+        .achievements ul li::before {
+            content: "➔";
+            color: green;
+            margin-right: 8px;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 0;
+            width: 100%;
+            margin-left: 5em;
+        }
+
+        .timeline-item {
+            position: relative;
+            width: 100%;
+            padding: 1em 0;
+            
+        }
+
+        .timeline-content {
+            background-color: #c0ffba;
+            padding: 15px;
+            border-radius: 8px;
+            color: black;
+            margin: 10px 0;
+            width: 100%;
+            max-width: 300px;
+            box-shadow: 3px 3px 8px rgb(35, 255, 54);
             text-align: center;
         }
-        .codechef{
-            background-color: #5B3219;
-            border-radius: 5px;
+        
 
+        .skills-section {
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
         }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            gap: 15px;
+        }
+
+        .skill {
+            width: 100%;
+            max-width: 300px;
+            padding: 10px;
+            background-color: #c0ffba;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .gif-section {
+            text-align: center;
+            margin-top: 120px;
+        }
+
+        .animated-gif {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .projects-section {
+            width: 100%;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #c0ffba;
+            margin-top: 20px ;
+            width: 100%;
+            max-width: 300px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgb(35, 255, 54);
+            font-size: small;
+        }
+
+        .card img {
+                height: 80px; 
+                width: 120px;
+            }
+
+        .card h3 {
+            font-size: 1.2em;
+            margin-top: 10px ;
+            text-align: center;
+        }
+
+        .project-link {
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 5px;
+            text-align: center;
+            display: block;
+        }
+
+        .project-link:hover {
+            background-color: #45a049;
+        }
+        
+        #certifications h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .certifications-box {
+            border: 1px solid #555;
+            border-radius: 8px;
+            padding: 1.5em;
+            max-width: 350px;
+            display: flex;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .certificate-list .certificate {
+            margin: 0.5em 0;
+        }
+
+        .certificate-list .certificate a {
+            color: rgba(59, 173, 69, 0.765);
+            text-decoration: none;
+        }
+
+        .certificate-list .certificate a:hover {
+            color: rgb(35, 255, 54);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #111;
+            color: gray;
+            padding: 20px;
+            text-align: center;
+            margin-top: 2em;
+        }
+
+        footer p {
+            font-size: 0.8rem;
+        }
+
+        footer a {
+            color: rgba(59, 173, 69, 0.765);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: rgb(35, 255, 54);
+        }
+
+        .footer-content {
+            margin-bottom: 1em;
+        }
+        footer p span img{
+                height: 25px;
+                width: 25px;
+            }
+            .footer-copyright {
+                font-size: 0.9em;
+                color: #888;
+                border-top: 1px solid #333;
+                padding-top: 1em;
+                margin-top: 1em;
+                text-align: center;
+            }
+            .codechef{
+                background-color: #5B3219;
+                border-radius: 5px;
+
+            }
 }
 
 
@@ -798,7 +793,6 @@
                     </div>
                 </div>
             </section>
-            <!-- Project Cards Carousel --> 
             <section id="projects"></section>
             <section class="projects-section">
                 <h2 class="Project-heading" style="color: gray;" >My Projects</h2>
@@ -845,26 +839,25 @@
                 <div class="certifications-box">
                     <div class="certificate-list">
                         <div class="certificate">
-                            <a href="link-to-certificate-1" target="_blank">Certificate 1 Title</a>
+                            <a href="https://drive.google.com/file/d/17USRuZQqRtE0iY8ZDNnQNskwASsEpVZP/view?usp=sharing" target="_blank">Generative AI Primer</a>
                         </div>
                         <div class="certificate">
-                            <a href="link-to-certificate-2" target="_blank">Certificate 2 Title</a>
+                            <a href="https://drive.google.com/file/d/1SB4KMEO0G8lowikZfYNWC5OGYJHo0puC/view?usp=drive_link" target="_blank">Infographic in Canva</a>
                         </div>
                         <div class="certificate">
-                            <a href="link-to-certificate-3" target="_blank">Certificate 3 Title</a>
+                            <a href="https://drive.google.com/file/d/12PPxRgxodBoFI_pwIgyv1lxij_5seT_c/view?usp=sharing" target="_blank">Trustworthy Generative AI</a>
                         </div>
                         <div class="certificate">
-                            <a href="link-to-certificate-4" target="_blank">Certificate 4 Title</a>
+                            <a href="https://drive.google.com/file/d/1ztuzoRxn6p-MHki4ewuNi_xOjEDwt-BQ/view?usp=sharing" target="_blank">Introduction to Generative AI </a>
                         </div>
                         <details>
                             <summary>Read More</summary>
                             <div class="certificate">
-                                <a href="link-to-certificate-5" target="_blank">Certificate 5 Title</a>
+                                <a href="https://drive.google.com/file/d/1u2_bfxDzM5kyEn9P4m6_8Fc7GkY6wyA1/view?usp=sharing" target="_blank">Create a Promotional Video using Canva</a>
                             </div>
                             <div class="certificate">
-                                <a href="link-to-certificate-6" target="_blank">Certificate 6 Title</a>
+                                <a href="https://drive.google.com/file/d/1h0VO3eWUUTDv7katyerplHzNIJujs0hR/view?usp=sharing" target="_blank">CodeChef-500 difficulty rating</a>
                             </div>
-                            <!-- Add more certificates as needed -->
                         </details>
                     </div>
                 </div>
